@@ -7,5 +7,5 @@ public interface StringManipulationInterface extends Remote
 	public String concat(String str1,String str2)throws RemoteException;
 	public String lower(String st1)throws RemoteException;
 	public String upper(String st2)throws RemoteException;
-	public void close()throws RemoteException;
+public void close()throws RemoteException;
 }
